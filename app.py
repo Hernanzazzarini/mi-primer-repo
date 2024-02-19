@@ -90,7 +90,7 @@ while True:
             search()    
 
         elif(opcion==6):
-           print("UD SALIO")
+           print("UD SALIO,VUELVA A INGRESAR AL MENU SI NECESITA REALIZAR OTRO MOVIMIENTO")
            break  
         else:
             print("OPCION NO VALIDA") 

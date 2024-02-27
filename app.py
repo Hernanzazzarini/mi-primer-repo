@@ -53,7 +53,7 @@ def search():
             +apellido : {}
             +nombre : {}
             +dni : {}""".format(data[0],data[1],data[2],data[3]))
-
+            
 while True:
     print("================")
     print("(\tREGISTRO DE PERSONAL")
@@ -90,12 +90,12 @@ while True:
             search()    
 
         elif(opcion==6):
-           print("UD SALIO,VUELVA A INGRESAR AL MENU SI NECESITA REALIZAR OTRO MOVIMIENTO")
+           print("UD SALIO,VUELVA A INGRESAR AL MENU SI NECESITA REALIZAR OTRO MOVIMIENTO.")
            break  
         else:
             print("OPCION NO VALIDA") 
             time.sleep(1)
-            system("cls")
+            system("cls") 
     except :
          print("ERROR EN ELEGIR OPCIONES") 
          time.sleep(1)
